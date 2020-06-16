@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'montserratbold';
-    src: url('../fonts/montseratte/montserrat-bold-webfont.eot');
-    src: url('../fonts/montseratte/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/montseratte/montserrat-bold-webfont.woff2') format('woff2'),
-         url('../fonts/montseratte/montserrat-bold-webfont.woff') format('woff'),
-         url('../fonts/montseratte/montserrat-bold-webfont.ttf') format('truetype'),
-         url('../fonts/montseratte/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    src: url('fonts/montseratte/montserrat-bold-webfont.eot');
+    src: url('fonts/montseratte/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montseratte/montserrat-bold-webfont.woff2') format('woff2'),
+         url('fonts/montseratte/montserrat-bold-webfont.woff') format('woff'),
+         url('fonts/montseratte/montserrat-bold-webfont.ttf') format('truetype'),
+         url('fonts/montseratte/montserrat-bold-webfont.svg#montserratbold') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -16,12 +16,12 @@
 
 @font-face {
     font-family: 'montserratregular';
-    src: url('../fonts/montseratte/montserrat-regular-webfont.eot');
-    src: url('../fonts/montseratte/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/montseratte/montserrat-regular-webfont.woff2') format('woff2'),
-         url('../fonts/montseratte/montserrat-regular-webfont.woff') format('woff'),
-         url('../fonts/montseratte/montserrat-regular-webfont.ttf') format('truetype'),
-         url('../fonts/montseratte/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    src: url('fonts/montseratte/montserrat-regular-webfont.eot');
+    src: url('fonts/montseratte/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montseratte/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montseratte/montserrat-regular-webfont.woff') format('woff'),
+         url('fonts/montseratte/montserrat-regular-webfont.ttf') format('truetype'),
+         url('fonts/montseratte/montserrat-regular-webfont.svg#montserratregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -30,11 +30,11 @@
 @font-face {
     font-family: 'montserratblack';
     src: url('montserrat-black-webfont.eot');
-    src: url('../fonts/montseratte/montserrat-black-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/montseratte/montserrat-black-webfont.woff2') format('woff2'),
-         url('../fonts/montseratte/montserrat-black-webfont.woff') format('woff'),
-         url('../fonts/montseratte/montserrat-black-webfont.ttf') format('truetype'),
-         url('../fonts/montseratte/montserrat-black-webfont.svg#montserratblack') format('svg');
+    src: url('fonts/montseratte/montserrat-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/montseratte/montserrat-black-webfont.woff2') format('woff2'),
+         url('fonts/montseratte/montserrat-black-webfont.woff') format('woff'),
+         url('fonts/montseratte/montserrat-black-webfont.ttf') format('truetype'),
+         url('fonts/montseratte/montserrat-black-webfont.svg#montserratblack') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -62,7 +62,7 @@ a
     
     margin: 300px 50px;
     width: 2110px;
-    background-image: url('../image/Group1.png');
+    background-image: url('image/Group1.png');
     background-repeat: no-repeat;
     background-size:cover;
     
