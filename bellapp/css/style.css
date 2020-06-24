@@ -607,9 +607,9 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
 {
     position: absolute;
     z-index: -5;
-    width: 900px;
+    width: 950px;
     top:-400px;
-    left:740px;
+    left:685px;
     opacity: 100%;
 
 }
