@@ -1,0 +1,1776 @@
+@font-face {
+    font-family: 'Bahnschrift';
+    src: url('../fonts/bahnschrift_regular/Bahnschrift.eot');
+    src: url('../fonts/bahnschrift_regular/Bahnschrift.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bahnschrift_regular/Bahnschrift.woff2') format('woff2'),
+        url('../fonts/bahnschrift_regular/Bahnschrift.woff') format('woff'),
+        url('../fonts/bahnschrift_regular/Bahnschrift.ttf') format('truetype'),
+        url('../fonts/bahnschrift_regular/Bahnschrift.svg#Bahnschrift') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/bebes/Bebas-Regular.eot');
+    src: url('../fonts/bebes/Bebas-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bebes/Bebas-Regular.woff2') format('woff2'),
+        url('../fonts/bebes/Bebas-Regular.woff') format('woff'),
+        url('../fonts/bebes/Bebas-Regular.ttf') format('truetype'),
+        url('../fonts/bebes/Bebas-Regular.svg#Bebas-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Aero Matics Display';
+    src: url('../fonts/aeromatics/AeroMaticsDisplayRegular.eot');
+    src: url('../fonts/aeromatics/AeroMaticsDisplayRegular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/aeromatics/AeroMaticsDisplayRegular.woff2') format('woff2'),
+        url('../fonts/aeromatics/AeroMaticsDisplayRegular.woff') format('woff'),
+        url('../fonts/aeromatics/AeroMaticsDisplayRegular.ttf') format('truetype'),
+        url('../fonts/aeromatics/AeroMaticsDisplayRegular.svg#AeroMaticsDisplayRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+*
+{
+    margin:0px;
+    padding:0px;
+    border:none;
+    box-sizing: border-box;
+}
+
+a
+{
+    text-decoration: none;
+    color:#0000004D;
+}
+
+body
+{
+    background-color: #F9F9F9;
+    
+}
+
+.container
+{
+    max-width: 1366px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    
+    
+
+}
+.bg_main
+{
+    position: absolute;
+    top:0px;
+    left:0px;
+    
+}
+
+
+
+
+header
+{
+    padding-top:40px;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 62px;
+    position: relative;
+   
+}
+header .bg_wave
+{
+    position: absolute;
+    z-index: 0;
+    top: -135px;
+    left: -375px;
+}
+
+header .left_side_header .menu nav ul
+{
+    padding-left: 55px;
+    
+}
+
+header .left_side_header .menu nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 37px;
+    font-size: 16px;
+    font-family: 'Bahnschrift';
+    
+    
+}
+header .left_side_header .menu nav ul li a
+{
+    color:#000000;
+}
+
+header .left_side_header .menu nav ul li::after
+{
+   content:" ";
+   display: block;
+
+   background-color:#000000;
+   height: 2px;
+    width: 0%;
+}
+
+header .left_side_header .menu nav ul li:hover::after
+{
+    transition: width 0.8s;
+    width: 100%;
+}
+
+header .left_side_header 
+{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+}
+header .left_side_header .logo
+{
+    position: relative;
+    bottom: 12.5px;
+}
+
+header .left_side_header .logo img
+{
+    max-width: 63px;
+    max-height: 63px;
+    
+    
+}
+
+header .left_side_header h1
+{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#343639;
+    font-size: 44px;
+    vertical-align: text-bottom;
+}
+
+header .right_side_header button
+{
+    background-color:#EFBDAE;
+    font-size: 16px;
+    border-radius: 36px;
+    padding: 12px 21px 10px 32px;
+    margin-right: 51px;
+    font-family: 'Bahnschrift';
+    color:#000000;
+    -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
+    
+}
+
+/* Home cooking css part*/
+.home_cooking
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom: 200px;
+    padding-left: 150px;
+    position: relative;
+}
+
+.home_cooking .bg_compose
+{
+position: absolute;
+top:310px;
+right: 510px;
+
+width:36%;
+
+}
+
+.home_cooking  .bg_pink_smile 
+{
+    position: absolute;
+    max-width: 75px;
+    top: 390px;
+    right:125px;
+    
+    
+}
+
+
+
+.home_cooking h2
+{
+    font-size: 52px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#343639;
+
+}
+
+.home_cooking p
+{
+    font-size: 22px;
+    color:black;
+    opacity: 71%;
+    padding-bottom:66px;
+    font-family: 'Bahnschrift';
+}
+
+.home_cooking  button
+{
+    background-color:#EFBDAE;
+    font-size: 16px;
+    border-radius: 36px;
+    padding: 12px 21px 10px 32px;
+    font-family: 'Bahnschrift';
+    color:#000000;
+    -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
+}
+
+.home_cooking_right
+{
+    max-width: 506px;
+    margin-right: 106px;
+    z-index: 1;
+}
+.home_cooking_right img
+{
+    width:100%;
+   
+}
+
+/* Home cooking css part*/
+
+/* indredients css part*/
+
+.ingredients
+{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding-bottom: 10px;
+    position: relative;
+    max-width: 100%;
+    margin-right:135px;
+    margin-left: 120px;
+    
+    
+}
+
+
+
+
+.ingredients_right h3
+{
+    font-size: 35px;
+    font-family: 'Bahnschrift';
+    padding-bottom: 22px;
+    color:#343639;
+
+}
+.ingredients_right 
+{
+   
+  max-width: 40%;
+    
+}
+
+.ingredients_right p
+{
+    font-size: 19px;
+    color:#343639;
+    opacity: 93%;
+    padding-bottom:68px;
+    font-family: 'Bahnschrift';
+
+}
+.ingredients_right ul li
+{
+    font-size: 19px;
+    font-family: 'Bahnschrift';
+    margin-bottom: 13px;
+    color:#343639;
+    
+
+}
+
+.ingredients_right ul 
+{
+    padding-bottom:15px;
+}
+
+
+.ingredients_right  button
+{
+    background-color:#fff;
+    border:2px solid #8a8a87;
+    font-size: 16px;
+    border-radius: 36px;
+    padding: 12px 21px 10px 32px;
+    font-family: 'Bahnschrift';
+    color:#000000;
+    opacity: 47%;
+    -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
+}
+
+.ingredients_left
+{
+    max-width: 60%;
+}
+.ingredients_left img
+{
+   width:100%;
+}
+
+/* indredients css part*/
+
+/* Nearest SHOP css part*/
+
+.nearest_shop
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom: 10px;
+    position: relative;
+    max-width: 100%;
+    
+    margin-left: 272px;
+    
+}
+.nearest_shop .bg_onion
+{
+    position: absolute;
+   
+    bottom:50px;
+    right: -35px;
+}
+
+
+
+.nearest_shop_left h4
+{
+    font-size: 35px;
+    font-family: 'Bahnschrift';
+    padding-bottom: 22px;
+    color:#343639;
+
+}
+
+.nearest_shop_left 
+{
+   
+    max-width: 50%;
+}
+
+
+.nearest_shop_left p
+{
+    font-size: 19px;
+    color:#343639;
+    opacity: 93%;
+    padding-bottom:68px;
+    font-family: 'Bahnschrift';
+
+}
+.nearest_shop_left ul li
+{
+    font-size: 19px;
+    font-family: 'Bahnschrift';
+    margin-bottom: 13px;
+    color:#343639;
+}
+
+.nearest_shop_left ul 
+{
+    padding-bottom:15px;
+}
+
+
+.nearest_shop_left  button
+{
+    background-color:#fff;
+    border:2px solid #8a8a87;
+    font-size: 16px;
+    border-radius: 36px;
+    padding: 12px 21px 10px 32px;
+    font-family: 'Bahnschrift';
+    color:#000000;
+    opacity: 47%;
+    -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
+}
+
+.nearest_shop_right
+{
+    max-width: 50%;
+}
+.nearest_shop_right img
+{
+    width:100%;
+}
+
+/* Nearest SHOP css part*/
+
+/*Explore Recipes css part*/
+.explore_recipes
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-bottom: 10px;
+    max-width: 100%;
+    margin: 0px 144px 0px 63px;
+   
+}
+
+.explore_recipes .bg_tomato
+{
+    position: absolute;
+    top:100px;
+    left: 480px;
+    
+}
+
+
+.explore_recipes_right h4
+{
+    font-size: 35px;
+    font-family: 'Bahnschrift';
+    padding-bottom: 22px;
+    color:#343639;
+
+}
+.explore_recipes_right
+{
+    
+    max-width: 40%;
+}
+
+.explore_recipes_right p
+{
+    font-size: 19px;
+    color:#343639;
+    opacity: 93%;
+    padding-bottom:68px;
+    font-family: 'Bahnschrift';
+
+}
+.explore_recipes_right ul li
+{
+    font-size: 19px;
+    font-family: 'Bahnschrift';
+    margin-bottom: 13px;
+    color:#343639;
+
+}
+
+.explore_recipes_right ul 
+{
+    padding-bottom:15px;
+}
+
+
+.explore_recipes_right  button
+{
+    background-color:#fff;
+    border:2px solid #8a8a87;
+    font-size: 16px;
+    border-radius: 36px;
+    padding: 12px 21px 10px 32px;
+    font-family: 'Bahnschrift';
+    color:#000000;
+    opacity: 47%;
+    -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
+}
+
+.explore_recipes_left
+{
+    max-width: 60%;
+}
+.explore_recipes_left img
+{
+    width:100%;
+}
+/*Explore Recipes css part*/
+
+/*HOW DOES BON APP WORR!*/
+
+.HowDoesBonAppWork
+{
+    text-align: center;
+    padding-bottom: 200px;
+    position: relative;
+}
+
+
+
+
+.HowDoesBonAppWork .images_work
+{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.HowDoesBonAppWork .text h4
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 34px;
+    color:#343639;
+    
+}
+.HowDoesBonAppWork .text
+{
+    padding-bottom: 77px;
+}
+
+
+.HowDoesBonAppWork .images_work .HowDoesBonAppWork_elements
+{
+    max-width: 325px;
+
+}
+.HowDoesBonAppWork .images_work .HowDoesBonAppWork_elements img
+{
+    max-width: 100%;
+}
+
+.HowDoesBonAppWork .images_work .HowDoesBonAppWork_elements:last-of-type img
+{
+    max-width: 135px;
+}
+
+.HowDoesBonAppWork .images_work .HowDoesBonAppWork_elements p
+{
+    font-size: 19px;
+    color:#343639;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+.HowDoesBonAppWork button
+{
+    margin-top: 50px;
+    background-color:#EFBDAE;
+    font-size: 19px;
+    border-radius: 36px;
+    padding: 10px 26px;
+    font-family: 'Bahnschrift';
+    color:#000000;
+    -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
+}
+
+/*HOW DOES BON APP WORR!*/
+
+
+/*SUBMIT RECIPE!*/
+.submit_container
+{
+    background-color:white;
+    position: relative;
+    z-index: 0;
+    max-width: 100%;
+    overflow: hidden;
+   
+   
+    
+}
+
+.submit_container .bg_pink_wave
+{
+    position: absolute;
+    z-index: -5;
+    width: 900px;
+    top:-400px;
+    left:740px;
+    opacity: 100%;
+
+}
+
+
+
+.submit_recipe
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    margin-bottom: 150px;
+    max-width: 100%;
+    
+    
+}
+
+.submit_recipe_left
+{
+    max-width: 46%;
+    padding-left: 20px;
+    
+}
+.submit_container h4
+{
+    font-size: 38px;
+    font-family: 'Bahnschrift';
+    opacity: 50%;
+    margin-left:55px;
+    padding-bottom: 22px;
+    color:#343639;
+    text-align: left;
+    padding-top: 120px;
+
+}
+
+.submit_container .bg_text_submit
+{
+    position: absolute;
+    top:-100px;
+    left:25px;
+    font-size: 62px;
+    color:#343639;
+    font-family: 'Bahnschrift';
+    z-index: -1;
+    opacity: 5%;
+    
+}
+
+.submit_recipe_left p
+{
+    font-size: 22px;
+    color:#343639;
+   
+    font-family: 'Bahnschrift';
+    text-align: left;
+
+}
+.submit_recipe_left  ol
+{
+    font-size: 22px;
+    color:#343639;
+    
+    padding-left: 25px;
+    font-family: 'Bahnschrift';
+    text-align: left;
+    list-style: decimal;
+    padding-bottom: 55px;
+    
+}
+
+.submit_recipe_left  ol li:first-of-type
+{
+    position: relative;
+    left:-2px;
+}
+
+
+.submit_recipe_left  button
+{
+    text-transform: uppercase;
+    background-color:#EFBDAE;
+    font-size: 16px;
+    border-radius: 36px;
+    padding: 17px 50px 20px 39px;
+    font-family: 'Bahnschrift';
+    color:#000000;
+    
+    -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
+}
+.submit_recipe_left  button[name="info"]
+{
+    background-color:#fff;
+    border:2px solid #8a8a87;
+    font-size: 16px;
+    border-radius: 36px;
+    padding: 17px 25px 17px 25px;
+    margin-left: 57px;
+    font-family: 'Bahnschrift';
+    color:#000000;
+    opacity: 47%;
+    -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
+}
+
+.submit_bottom_text
+{
+    color:#343639;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 17px;
+    opacity: 75%;
+    
+    padding-top: 20px;
+}
+
+.submit_recipe_right
+{
+    max-width: 70%;
+    padding-left: 30px;
+   
+ 
+        
+    
+}
+.submit_recipe_right .recipe_name
+{
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left:30px;
+    background-color:#fff;
+
+    -webkit-box-shadow: 1px -4px 10px 1px rgba(0,0,0,0.2);
+box-shadow: 1px -4px 10px 1px rgba(0,0,0,0.2);
+}
+
+.submit_recipe_right .author
+{
+    text-align: right;
+    padding-top: 10px;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 80%;
+}
+
+
+.recipe_info
+{
+    display: flex;
+    justify-content: space-between;
+   background-color:white; 
+    
+  max-width: 100%;
+  
+   
+   
+   
+
+
+    -webkit-box-shadow: 1px 4px 10px 1px rgba(0,0,0,0.2);
+box-shadow: 1px 4px 10px 1px rgba(0,0,0,0.2);   
+    
+}
+
+.ingredients_include
+{
+   max-width: 40%;
+  
+   
+    
+ 
+    
+}
+.ingredients_include .top_info
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom:20px;
+    max-width: 100%;
+    max-height: 173px;
+    
+}
+.ingredients_include .top_info .top_info_elelment p
+{
+    font-size: 16px;
+    font-family: 'Aero Matics Display';
+    opacity: 50%;
+    
+}
+
+.ingredients_include .top_info .top_info_elelment p:last-of-type
+{
+    
+   padding-top: 15px;
+}
+
+.ingredients_include .top_info .top_info_elelment:last-of-type p:first-of-type
+{
+    position: relative;
+    top: -3.5px;
+}
+
+.ingredients_include .top_info .top_info_elelment
+{
+    max-width: 33.3%;
+}
+
+.ingredients_include .top_info .top_info_elelment img
+{
+    width:25px;
+    opacity: 75%;
+}
+
+.ingredients_include
+{
+    margin-top: 20px;
+   
+    
+    
+}
+
+.recipe_info .dish_photo
+{
+ 
+ 
+
+ max-width: 60%;
+   
+   
+    
+
+}
+.recipe_info  img
+{
+ 
+ 
+
+  max-width: 100%; 
+   
+    
+
+}
+
+
+
+
+.middle_info
+{
+    border-top:2px solid rgba(0, 0, 0,0.5);
+    max-width: 100%;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+   
+}
+.middle_info_elements
+{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 5px;
+    
+}
+
+.middle_info span
+{
+   padding-top: 15px;
+    font-size: 17px;
+    font-family: 'Bahnschrift';
+    opacity: 75%;
+    line-height: 24px;
+    padding-bottom: 5px;
+    line-height: 5px;
+    
+
+}
+
+.recipe_info h4
+{
+    padding-top: 5px;
+    font-size: 21px;
+    font-family: 'Bahnschrift';
+    padding-bottom: 10px;
+    text-align: left;
+    opacity: 100%;
+  position: relative;
+   left:-55px;
+}
+.middle_info p
+{
+   padding-top: 15px;
+    font-size: 17px;
+    font-family: 'Bahnschrift';
+    opacity: 75%;
+    line-height: 24px;
+    padding-bottom: 5px;
+    line-height: 30px;
+    
+
+}
+
+
+.recipe_info button
+{
+    text-transform: uppercase;
+    background-color:#EFBDAE;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 9.2px 30.6px 9.2px 20.4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:#000000;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
+    
+    
+
+}
+
+/*SUBMIT RECIPE!*/
+
+/*COOK BETTER LIVE BETTER!*/
+
+.cook_better
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+    position: relative;
+   
+
+ 
+}
+
+.cook_better_left
+{
+    max-width: 40%;
+
+    
+}
+
+.cook_better .bg_cook_text
+{
+    position: absolute;
+    color:#343639;
+    font-size: 72px;
+    top: -60px;
+    z-index: -1;
+    opacity: 10%;
+    max-width: 79%;
+}
+
+.cook_better_left h4
+{
+    font-size: 43px;
+    font-family: 'Bahnschrift';
+    padding-bottom: 31px;
+    color:#343639;
+    max-width: 100%;
+    padding-left: 25px;
+    
+
+}
+
+.cook_better_left p
+{
+    font-size: 20px;
+    color:#343639;
+    opacity: 93%;
+    padding-bottom:68px;
+    font-family: 'Bahnschrift';
+    font-weight: lighter;
+    padding-left: 78px;
+    line-height: 26px;
+   
+
+}
+
+
+.cook_better_right
+{
+    max-width: 100%;
+    position: relative;
+    right: -32px;
+   
+}
+
+.cook_better_right img
+{
+    width:100%;
+   
+}
+
+/*REVIEWS*/
+
+.reviews
+{
+    position: relative;
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 100px;
+   border-bottom:10px solid rgba(128, 128, 128,0.1);
+   background-color:#F9F9F9;
+}    
+.reviews h4
+    {
+       padding-left: 20px;
+        font-size: 43px;
+        font-family: 'Bahnshrift';
+       font-weight: 500;
+       color:#343639;
+       opacity: 93%;
+       text-align: left;
+       padding-bottom:50px;
+       max-width: 80%;
+       
+    }
+
+    .reviews .bg_text
+    {
+        position: absolute;
+        top:180px;
+        left: 15px;
+        font-size: 54px;
+        font-family: 'Bahnshrift';  
+        font-weight: 500;
+        color:#343639;
+        opacity: 20%;
+        text-align: left;
+        padding-bottom:50px;
+        max-width: 100%;
+    }
+
+    .reviews .bg_upper_quote
+    {
+       position: absolute;
+       left: -31.7060546875px;
+       top:50px;
+       z-index: 0;
+       opacity: 50%;
+    }
+
+    .reviews .bg_low_quote
+    {
+        position: absolute;
+       right: -31.7060546875px;
+       bottom:5px;
+       z-index: 0;
+       opacity: 50%;
+    }
+
+    .reviews_client_box
+    {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .review_client
+    {
+        width:50%;  
+        padding-bottom:60px;
+        
+    }
+
+    .review_client blockquote
+    {
+        text-align: right;
+        font-size: 19px;
+        color:#343639;
+        opacity: 70%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .review_client p
+    {
+       padding-top: 5px;
+        text-align: right;
+        color:#343639;
+        font-size: 20px;
+        font-family: 'Bahnschrift';
+    }
+
+    .email_us
+    {
+       
+        font-size: 19px;
+        color:#343639;
+        opacity: 70%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .email_us button
+    {
+        text-transform: uppercase;
+        background-color:#EFBDAE;
+        font-size: 16px;
+        border-radius: 36px;
+        padding: 17px 97.5px;
+        font-family: 'Bahnschrift';
+        color:#000000;
+        margin-top:20px;
+        
+        -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);  
+    }
+
+   
+/*REVIEWS*/
+
+/*HELP US!*/
+
+    .help
+    {
+        text-align: center;
+        margin-bottom:150px;
+        background-color:white;
+       
+        
+    }
+
+    .help h4
+    {
+        font-family: 'Bahnschrift';
+        font-size: 36px;
+        opacity: 75%;
+        padding-top: 133px;
+    }
+    .help p
+    {
+            font-size: 24px;
+            font-family: 'Bahnschrift';
+            padding-bottom: 37px;
+            color: rgba(87, 84, 84, 0.7)
+    }
+
+    .help button
+    {
+        text-transform: uppercase;
+        background-color:#EFBDAE;
+        font-size: 16px;
+        border-radius: 36px;
+        padding: 17px 97.5px;   
+        font-family: 'Bahnschrift';
+        color:#000000;
+        opacity: 75%;
+        
+        -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
+    box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);   
+    }
+
+/*HELP US!*/
+
+/*FOOTER!*/
+footer
+{
+   padding-top:100px ;
+   padding-bottom: 50px;
+    width:100%;
+   text-align: center;
+  
+
+
+  
+
+}
+.shadow
+{
+    padding: 20px 0px;
+    -webkit-box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);
+box-shadow: 0 0 10px 10px rgba(0,0,0,0.2);
+
+}
+
+footer span
+{
+    font-size: 24px;
+            font-family: 'Bahnschrift';
+            color: rgba(87, 84, 84, 0.7)
+}
+
+footer span:first-of-type
+{
+    padding-right: 50px;
+    border-right: 2px solid rgba(0, 0, 0,0.1);
+}
+
+footer span:last-of-type
+{
+    padding-left: 50px;
+    border-left: 2px solid rgba(0, 0, 0,0.1);
+}
+
+footer .social_media
+{
+    padding:0px 65px;
+    font-size: 40px;
+}
+
+
+footer .social_media:first-of-type
+{
+    
+    color:rgb(175, 30, 180);
+    
+}
+
+footer .social_media:nth-of-type(2)
+{
+    
+    color:rgb(34, 131, 187);
+    
+}
+
+footer .social_media:last-of-type
+{
+    
+    color:rgb(6, 5, 77);
+    
+}
+
+footer span a:hover
+{
+    transition: color 0.3s;
+    color: rgba(0, 0, 0, 1)
+}
+footer img
+{
+   
+   padding-left: 40px;
+    max-width: 75px;
+    vertical-align: text-bottom;
+    opacity: 50%;
+}
+/*FOOTER!*/
+
+/*.made_by
+{
+    text-align: center;
+    color: rgba(0, 0, 0, 1)
+}*/
+
+/*Responsive*/
+
+
+@media screen and (max-width:1366px)
+{
+    .recipe_info .dish_photo 
+{
+
+max-width: 60%;
+
+}
+
+.ingredients_include
+{
+   max-width: 70%;
+    
+}
+
+.recipe_info {max-height: 410px;}
+}
+
+@media screen and (max-width:1296px)
+{
+    .submit_container .bg_pink_wave
+    {
+        
+        top:0px;
+        left: 685px;
+        width: 650px;        
+    
+    }
+}
+
+@media screen and (max-width:1260px)
+{
+    .submit_container .bg_pink_wave
+    {
+        
+        width: 675px;  
+        top:0px;
+        left: 670px;    
+        
+    
+    }
+}
+@media screen and (max-width:1228px)
+{
+    .submit_container .bg_pink_wave
+    {
+        width: 690px; 
+    }
+}
+
+@media screen and (max-width:1215px)
+{
+  
+    .recipe_info
+{
+    max-height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.recipe_info .dish_photo
+{
+ max-width: 100%;
+}
+.submit_recipe_left{max-width: 60%;}
+.submit_container .bg_pink_wave
+    {
+        
+        width: 980px;  
+        top:0px;
+        left: 600px;    
+        
+    
+    }
+}
+
+@media screen and (max-width:1074px)
+{
+    .submit_container .bg_pink_wave
+    {
+        
+        left: 550px; 
+        
+    
+    }
+}
+
+
+
+@media screen and (max-width:1190px)
+{
+    .recipe_info
+{
+    
+    flex-direction: column;
+    align-items: center;
+    
+}
+}
+
+@media screen and (max-width:1070px)
+{
+    
+    .submit_recipe_left  button[name="info"]
+{
+    margin-top: 20px;
+}
+
+}
+
+@media screen and (max-width:1024px)
+{
+    .submit_container .bg_pink_wave
+    {
+        
+     
+       left:555px;
+       width:950px
+        
+    
+    }
+}
+
+@media screen and (max-width:1024px)
+{
+    .submit_container .bg_pink_wave
+    {
+        
+        
+       left:555px;
+       width:960px
+        
+    
+    }
+}
+
+
+@media screen and (max-width:980px)
+{
+    .submit_recipe_left button[name=info]
+    {margin-top: 20px;}
+}
+@media screen and (max-width:955px)
+{
+    
+    .submit_container .bg_pink_wave
+    {
+        width:1000px;
+        top:100px;
+        left:510px;
+    
+    }
+.submit_recipe
+{
+    text-align: center;
+}
+
+.submit_recipe_right
+{
+    max-width: 60%;
+   
+    position: static;
+    
+}
+.recipe_info
+{
+   flex-direction: column;
+  max-height: 100%;
+   
+   align-items:center;    
+}
+
+.recipe_info .dish_photo
+{
+ max-width: 100%;
+}
+.ingredients_include .middle_info p
+{
+text-align: left;
+}
+
+
+}
+
+@media screen and (max-width:954px)
+{
+    .submit_container .bg_pink_wave
+    {
+        
+        
+       left:440px;
+       width:970px
+        
+    
+    }
+}
+
+@media screen and (max-width:900px)
+{
+   
+    header
+    {
+        display:block;
+    }
+
+    header .left_side_header .menu nav ul li
+    {
+        display: block;
+        text-align: left;
+        font-size: 25px;
+    }
+
+    header .left_side_header 
+    {
+        justify-content: space-between;
+
+    }
+    header .right_side_header   
+    {
+        text-align: center;
+    }
+    .container
+    {
+        max-width: 100%;
+        margin:0px;
+        padding: 0px;
+    }
+
+ 
+
+    footer span
+    {
+        display: block;
+        margin: 30px 0px;
+        padding: 0px 0px;
+        text-align: center;
+        
+        
+
+        
+        
+    }
+    footer span:last-of-type
+    {
+       position: relative;
+       right:24px;
+    }
+
+    footer span:first-of-type
+    {
+       position: relative;
+       left:25px;
+    }
+    footer img
+    {
+        text-align: center;
+    }
+
+    .submit_container .bg_pink_wave
+    {
+        
+        top:120px;
+        left:460px;
+    
+    }
+
+    /*Responsive BackGround Images*/
+    .home_cooking .bg_compose
+{
+
+
+left: 0px;
+
+}
+.home_cooking
+{
+    padding-left: 0px;
+}
+
+}
+
+@media screen and (max-width:850px)
+{
+    .submit_container .bg_pink_wave
+    {
+        top:100px;
+        left:500px;
+        
+    
+    }
+}
+
+@media screen and (max-width:800px)
+{
+    .submit_container .bg_pink_wave
+    {
+        top:0px;
+        left:415px;
+        width:1200px;
+    
+    }
+}
+
+
+@media screen and (max-width:768px)
+{
+   
+    header .left_side_header
+    {
+        padding-left: 0px;
+    }
+    .home_cooking
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .home_cooking_left
+    {
+        padding-bottom:30px;
+    }
+    .home_cooking_right
+    {
+        text-align: center;
+    }
+
+    .ingredients
+    {
+       flex-direction: column;
+       align-items:center;
+    }
+
+    .nearest_shop
+    {
+        flex-direction: column;
+       align-items:center;
+    }
+
+    .explore_recipes{
+        flex-direction: column;
+       align-items:center;
+    }
+
+ 
+
+    .submit_recipe
+    {
+        flex-direction: column;
+        align-items:cnter;
+        padding:0px;
+    }
+    .submit_recipe_right
+    {
+        padding-top: 30px;
+    }
+
+    
+
+    .cook_better
+    {
+        flex-direction: column;
+       align-items:center; 
+    }
+
+    .review_client blockquote, .review_client p {
+        text-align: center;
+    }
+    
+    .review_client
+    {
+        width:100%;  
+        
+    }
+
+    .HowDoesBonAppWork {padding-top: 50px;} 
+
+
+    .HowDoesBonAppWork .images_work 
+    {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .HowDoesBonAppWork_elements{padding-top: 20px;}
+
+  /*background images responsive!*/
+    .home_cooking .bg_compose, .home_cooking .bg_pink_smile
+{
+
+display: none;
+
+}
+
+.submit_container .bg_pink_wave
+    {
+        display: none;
+    
+    }
+
+    .submit_recipe_left
+    {
+        max-width: 100%;
+    }
+    .submit_recipe_right
+    {
+        max-width: 100%;
+    }
+    .submit_recipe .author
+    {
+        font-size: 12px;
+    }
+
+    .ingredients
+    {
+      padding: 0px;
+      margin: 0px;
+       padding-bottom:10px;
+    }
+    .ingredients_right 
+{
+   
+  max-width: 100%;
+    
+}
+
+.ingredients_left
+{
+    max-width: 100%;
+}
+
+.nearest_shop
+
+{
+    padding: 0px;
+    margin: 0px;
+ 
+}
+
+.nearest_shop_left
+{
+   
+  max-width: 100%;
+    
+}
+
+.nearest_shop_right
+{
+    max-width: 100%;
+}
+.explore_recipes{padding: 0px;
+    margin: 0px;}
+.explore_recipes_left{ max-width: 100%;}
+.explore_recipes_right{ max-width: 100%;}
+.cook_better
+    {
+        padding: 0px;
+      margin: 0px;
+    }
+
+    .cook_better_left{max-width: 100%;}
+    .cook_better_right{max-width: 100%;}
+
+}
+@media screen and (max-width:560px)
+{
+  
+}
+@media screen and (max-width:500px)
+{
+    footer .social_media 
+    {
+     
+        padding: 0px 15px;
+        margin: 0px;
+        
+    }
+
+    header .left_side_header .menu nav ul li
+    {
+       
+        font-size: 16px;
+    }
+    header .left_side_header .menu nav ul
+    {
+        padding:0px;
+        margin:0px;
+    }
+
+ 
+}
+
+@media screen and (max-width:360px)
+{
+    header .left_side_header .logo img
+    {
+        max-width: 50px;
+    }
+
+    header .left_side_header .logo h1
+    {
+        font-size: 25px;
+    }
+    header .left_side_header .menu nav ul li
+    {
+       
+        font-size: 17px;
+        padding-top: 5px;
+    }
+}
+
+/*Responsive*/
