@@ -79,7 +79,7 @@ body
     position: absolute;
     top:0px;
     left:0px;
-    
+    z-index: -1;
 }
 
 
@@ -176,9 +176,10 @@ header .right_side_header button
     background-color:#EFBDAE;
     font-size: 16px;
     border-radius: 36px;
-    padding: 12px 21px 10px 32px;
+    padding: 10px 32px 10px 32px;
     margin-right: 51px;
     font-family: 'Bahnschrift';
+    vertical-align: middle;
     color:#000000;
     -webkit-box-shadow: 0 10px 5px 0 rgba(0,0,0,0.4);
 box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
@@ -269,11 +270,12 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
     display: flex;
     justify-content: space-around;
     align-items:center;
-    padding-bottom: 10px;
+   
     position: relative;
     max-width: 100%;
-    margin-right:135px;
-    margin-left: 120px;
+    margin-right:0px;
+    margin-left: 0px;
+  
     
     
 }
@@ -292,7 +294,7 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
 .ingredients_right 
 {
    
-  max-width: 40%;
+  max-width: 50%;
     
 }
 
@@ -301,7 +303,7 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
     font-size: 19px;
     color:#343639;
     opacity: 93%;
-    padding-bottom:68px;
+    padding-bottom:30px;
     font-family: 'Bahnschrift';
 
 }
@@ -337,7 +339,7 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
 
 .ingredients_left
 {
-    max-width: 60%;
+    max-width: 40%;
 }
 .ingredients_left img
 {
@@ -353,11 +355,11 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding-bottom: 10px;
+    
     position: relative;
     max-width: 100%;
     
-    margin-left: 272px;
+  
     
 }
 .nearest_shop .bg_onion
@@ -382,7 +384,8 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
 .nearest_shop_left 
 {
    
-    max-width: 50%;
+    max-width: 60%;
+    padding-left: 100px;
 }
 
 
@@ -391,8 +394,9 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
     font-size: 19px;
     color:#343639;
     opacity: 93%;
-    padding-bottom:68px;
+    padding-bottom:30px;
     font-family: 'Bahnschrift';
+    
 
 }
 .nearest_shop_left ul li
@@ -425,7 +429,7 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
 
 .nearest_shop_right
 {
-    max-width: 50%;
+    max-width: 35%;
 }
 .nearest_shop_right img
 {
@@ -443,7 +447,7 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
     align-items:center;
     padding-bottom: 10px;
     max-width: 100%;
-    margin: 0px 144px 0px 63px;
+    
    
 }
 
@@ -467,7 +471,7 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
 .explore_recipes_right
 {
     
-    max-width: 40%;
+    max-width: 60%;
 }
 
 .explore_recipes_right p
@@ -475,7 +479,7 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
     font-size: 19px;
     color:#343639;
     opacity: 93%;
-    padding-bottom:68px;
+    padding-bottom:30px;
     font-family: 'Bahnschrift';
 
 }
@@ -510,7 +514,8 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
 
 .explore_recipes_left
 {
-    max-width: 60%;
+    max-width: 40%;
+
 }
 .explore_recipes_left img
 {
@@ -607,9 +612,9 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
 {
     position: absolute;
     z-index: -5;
-    width: 950px;
-    top:-400px;
-    left:685px;
+    width:800px;
+    top:0px;
+    left:650px;
     opacity: 100%;
 
 }
@@ -630,8 +635,8 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
 
 .submit_recipe_left
 {
-    max-width: 46%;
-    padding-left: 20px;
+    max-width: 50%;
+    padding-left: 80px;
     
 }
 .submit_container h4
@@ -659,12 +664,15 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
     opacity: 5%;
     
 }
-
+.submit_recipe_left .empty_field
+{
+    padding-bottom: 140px;
+}
 .submit_recipe_left p
 {
     font-size: 22px;
     color:#343639;
-   
+
     font-family: 'Bahnschrift';
     text-align: left;
 
@@ -674,7 +682,7 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
     font-size: 22px;
     color:#343639;
     
-    padding-left: 25px;
+    padding-left: 20px;
     font-family: 'Bahnschrift';
     text-align: left;
     list-style: decimal;
@@ -731,8 +739,8 @@ box-shadow: 0 10px 5px 0 rgba(0,0,0,0.1);
 
 .submit_recipe_right
 {
-    max-width: 70%;
-    padding-left: 30px;
+    max-width: 50%;
+    padding-left: 0px;
    
  
         
@@ -1030,10 +1038,10 @@ box-shadow: 1px 4px 10px 1px rgba(0,0,0,0.2);
     {
        padding-left: 20px;
         font-size: 43px;
-        font-family: 'Bahnshrift';
+        font-family: 'Bahnschrift';
        font-weight: 500;
        color:#343639;
-       opacity: 93%;
+       opacity: 50%;
        text-align: left;
        padding-bottom:50px;
        max-width: 80%;
@@ -1046,7 +1054,7 @@ box-shadow: 1px 4px 10px 1px rgba(0,0,0,0.2);
         top:180px;
         left: 15px;
         font-size: 54px;
-        font-family: 'Bahnshrift';  
+        font-family: 'Bahnschrift';
         font-weight: 500;
         color:#343639;
         opacity: 20%;
@@ -1084,8 +1092,18 @@ box-shadow: 1px 4px 10px 1px rgba(0,0,0,0.2);
         width:50%;  
         padding-bottom:60px;
         
+        
     }
-
+    .review_client:nth-of-type(2n)
+    {
+        padding-left: 90px;
+        
+    }
+    .review_client:nth-of-type(2n+1)
+    {
+        padding-right:90px;
+    }
+   
     .review_client blockquote
     {
         text-align: right;
@@ -1138,6 +1156,7 @@ box-shadow: 1px 4px 10px 1px rgba(0,0,0,0.2);
         margin-bottom:150px;
         background-color:white;
        
+       
         
     }
 
@@ -1153,7 +1172,8 @@ box-shadow: 1px 4px 10px 1px rgba(0,0,0,0.2);
             font-size: 24px;
             font-family: 'Bahnschrift';
             padding-bottom: 37px;
-            color: rgba(87, 84, 84, 0.7)
+            color: rgba(87, 84, 84, 0.7);
+           
     }
 
     .help button
@@ -1177,7 +1197,7 @@ box-shadow: 1px 4px 10px 1px rgba(0,0,0,0.2);
 footer
 {
    padding-top:100px ;
-   padding-bottom: 50px;
+   
     width:100%;
    text-align: center;
   
@@ -1289,29 +1309,56 @@ max-width: 60%;
     {
         
         top:0px;
-        left: 685px;
-        width: 650px;        
+        left: 700px;
+        width: 830px;        
     
+    }
+}
+@media screen and (max-width:1280px)
+{
+    .submit_container .bg_pink_wave
+    {
+        
+        top:0px;
+        left: 685px;
+        width: 760px;        
+    
+    }
+    .home_cooking .bg_compose
+    {
+        top: 250px;
+        right: 470px;
+    }
+    .ingredients
+    {
+        max-height: 350px;
+        margin-bottom: 80px;
+    }
+    .nearest_shop
+    {
+        max-height:350px;
+        margin-bottom: 80px;
+       
+    }
+    .explore_recipes
+    {
+        max-height:350px;
+        margin-bottom: 80px;
+       
     }
 }
 
-@media screen and (max-width:1260px)
+
+@media screen and (max-width:1264px)
 {
     .submit_container .bg_pink_wave
     {
         
-        width: 675px;  
+        width: 900px;  
         top:0px;
-        left: 670px;    
+        left: 620px;    
         
     
-    }
-}
-@media screen and (max-width:1228px)
-{
-    .submit_container .bg_pink_wave
-    {
-        width: 690px; 
     }
 }
 
@@ -1337,6 +1384,11 @@ max-width: 60%;
         left: 600px;    
         
     
+    }
+    .submit_recipe_left .empty_field
+    {
+        padding-bottom: 0px;
+        display: none;
     }
 }
 
@@ -1374,18 +1426,6 @@ max-width: 60%;
 
 }
 
-@media screen and (max-width:1024px)
-{
-    .submit_container .bg_pink_wave
-    {
-        
-     
-       left:555px;
-       width:950px
-        
-    
-    }
-}
 
 @media screen and (max-width:1024px)
 {
@@ -1400,6 +1440,14 @@ max-width: 60%;
     }
 }
 
+@media screen and (max-width:992px)
+{
+    .submit_container .bg_pink_wave
+    {
+       width:1000px;
+       left:500px;
+    }
+}
 
 @media screen and (max-width:980px)
 {
@@ -1556,6 +1604,14 @@ left: 0px;
     }
 }
 
+@media screen and (max-width:835px)
+{
+    .submit_container .bg_pink_wave
+    {
+       width:1000px;
+       left:450px;
+    }
+}
 @media screen and (max-width:800px)
 {
     .submit_container .bg_pink_wave
@@ -1593,17 +1649,37 @@ left: 0px;
     {
        flex-direction: column;
        align-items:center;
+        margin-bottom: 20px;
+       max-height: 100%;
+     
     }
+   
 
     .nearest_shop
     {
         flex-direction: column;
        align-items:center;
+       z-index: 1;
+       margin-bottom: 20px;
+       max-height: 100%;
+    }
+
+    .nearest_shop .nearest_shop_right 
+    {
+        max-width: 80%;
+    }
+    
+    .nearest_shop .nearest_shop_left 
+    {
+        padding-left: 0px;
     }
 
     .explore_recipes{
         flex-direction: column;
        align-items:center;
+       z-index: 1;
+       margin-bottom: 10px;
+       max-height: 100%;
     }
 
  
@@ -1634,6 +1710,19 @@ left: 0px;
     .review_client
     {
         width:100%;  
+        
+        
+    }
+    .review_client:nth-of-type(2n)
+    {
+        padding-left: 0px;
+        padding-bottom: 20px;
+        
+    }
+    .review_client:nth-of-type(2n+1)
+    {
+        padding-right: 0px;
+        padding-bottom: 20px;
         
     }
 
